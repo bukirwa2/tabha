@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    padding: 0 8%;
+    width: 100%;
+    background: red;
+}
+.logo{
+    color: #5ed9ff;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+}
+.logo a{
+    text-decoration: none;
+    color: #5ed9ff;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(2, 155, 2);
+    font-size:18px;
+}
+nav ul li a:hover{
+    color: #5ed9ff;
+}
+.reg{
+    width: 100%;
+    border: 2px solid purple;
+    height: 100vh;
+    background: cadetblue;
+    
+}
+.reg form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+.pin{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    background: greenyellow;
+    text-align: center;
+    border-radius: 30px;
+}
+.reg form  label{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    width: 220px;
+margin-left: 40rem;
+margin-top: 40px;
+border:2px solid red;
+padding: 20px;
+border-radius: 30px;
+background-color: red;
+font-size: 20px;
+}
+.btn:hover{
+    color: rgb(253, 253, 253);
+    background: transparent;
+}
